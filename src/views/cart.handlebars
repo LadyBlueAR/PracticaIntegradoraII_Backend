@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>CART ID : {{cart._id}}</h1>
+    <ul>
+        {{#each products}}
+            <li style="display: flex; justify-content: space-around;">
+                <p>{{this.product.title}}</p>
+                <p>ID: {{this._id}}</p>
+                <p>Cantidad: {{this.quantity}}</p>
+                <p>Precio x Unidad: {{this.product.price}}</p>
+            </li>
+        {{/each}}
+    </ul>
+</div>

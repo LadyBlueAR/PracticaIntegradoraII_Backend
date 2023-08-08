@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+li:hover {
+    background-color: rgba(236, 236, 236, 0.438);
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #2696ca;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #207da8;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos de la paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+
+.pagination button:hover {
+    background-color: #ccc;
+    color: #000;
+}
